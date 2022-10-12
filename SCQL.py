@@ -19,13 +19,13 @@ islemno= input("Select The Number :")
 if islemno=="1":
   hedefip= input("Enter Target Site: ")
   os.system("whois "+hedefip)
-elif islemno=="2"  
+elif islemno=="2":  
   hedefip= input("Enter Targer The Site: ")
   os.system("nmap "+hedefip)
 elif islemno=="3":
   hedefip= input("Enter Target Site: ")
   os.system("nmap -sV "+hedefip)
-elif islemno=="4"
+elif islemno=="4":
   hedefip= input("Enter Dork: ")
   os.system("sqlmap -g "+hedefip)
   
