@@ -7,6 +7,7 @@ use python3 SCQL.py
 
 Whit This Tool We Can
 
-
-![VirtualBox_KaliLinux_16_10_2022_14_04_36](https://user-images.githubusercontent.com/68772806/196031854-88c8753d-730b-45d3-84d4-449b9170955f.svg)
-
+1)İnformation About The Target Site
+2)Fast Port Scanner
+3)Version İnformation
+4)SQL Dork Scanner
