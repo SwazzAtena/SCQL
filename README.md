@@ -4,3 +4,8 @@
 # SCQL
  Multipurpose Tool
 use python3 SCQL.py
+
+Whit This Tool We Can
+
+![Uploading VirtualBox_KaliLinux_16_10_2022_14_04_36.png…]()
+
