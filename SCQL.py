@@ -12,6 +12,7 @@ print("""
 3)Version İnformation(Versiyon Bilgisi)
 4)SQL Dork Scanner(SQL Açık Tarama)
 5)General Site Scanner(Site Hakkında Nmap Sorgusu Yapar)
+6)Gobuster Scan(Gobuster Tarama)
 
 """)
 
@@ -32,3 +33,6 @@ elif islemno=="4":
 elif islemno=="5":
   hedefip= input("Enter The Target Site: ")
   os.system("sudo nmap -sV -sS -sC -Pn"+hedefip)
+  elif islemno=="6":
+    hedefip=input("Enter The Target Site: ")
+    os.system("gobuster dir --url" + hedef ip"--wordlist /usr/share/wordlists/dirbuster/directory-list-2.3-small.txt -x php,html")
