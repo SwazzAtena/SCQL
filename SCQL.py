@@ -11,6 +11,7 @@ print("""
 2)Fast Port Scanner(Hızlı Port Tarama)
 3)Version İnformation(Versiyon Bilgisi)
 4)SQL Dork Scanner(SQL Açık Tarama)
+5)General Site Scanner(Site Hakkında Nmap Sorgusu Yapar)
 
 """)
 
@@ -28,4 +29,6 @@ elif islemno=="3":
 elif islemno=="4":
   hedefip= input("Enter Dork: ")
   os.system("sqlmap -g "+hedefip)
-  
+elif islemno=="5":
+  hedefip= input("Enter The Target Site: ")
+  os.system("sudo nmap -sV -sS -sC -Pn"+hedefip)
